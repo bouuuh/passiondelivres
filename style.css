@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Montserrat";
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none; 
+}
+.banner{
+    background-image: url(top-view-books-arrangement.jpg);
+    height: 15vh;
+    width: 100%;
+    background-size: cover;
+}
+
+#wrap {
+    width: 100%;
+    height: 5vh;
+    margin: 0;
+    z-index: 99;
+    position: relative;
+    background-color: #020202;
+  }
+  .navbar {
+    height: 5vh;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+  }
+  .navbar li {
+    height: auto;
+    width: 135.8px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font-family: 'Montserrat';
+    padding: 0;
+    margin: 0;
+    background-color: #020202;
+  }
+  .navbar a:hover{
+    background-color: #444444;
+  }
+  .navbar a {
+    padding: 1.5vh 0;
+    border-left: 1px solid #ccc9c9;
+    border-right: 1px solid #ccc9c9;
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+
+  .navbar li ul {
+    display: none;
+    height: 5vh;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar li:hover ul {
+    display: block;
+  }
+  .navbar li ul li {
+    background-color: #020202;
+  }
+  .navbar li ul li a {
+    border-left: 1px solid #444444;
+    border-right: 1px solid #444444;
+    border-top: 1px solid #c9d4d8;
+    border-bottom: 1px solid #444444;
+  }
+  .navbar li ul li a:hover {
+    background-color: #444444;
+  }
+/* unvisited link */
+a:link {
+    color: #fff;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #fff;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #fff;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #fff;
+  }
+
+footer{
+    bottom : 0;
+   
+    margin: 0;
+ 
+}
+.foot{
+    background-color: #020202;
+    height: 10vh;
+    margin-top: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.foot a:hover{
+  color: #444444;
+}
+.foot2{
+   
+    background-color: #020202;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border: 2px solid #020202;
+    bottom: 0;
+}
+.insta {
+    height: 3.5em;
+    width: 3.5em;
+    padding-right: 10vh;
+}
+.git{
+  height: 4em;
+  width: 4em;
+  padding-right: 5vh;
+}
+.rs{
+  display: flex;
+  align-items: center;
+}
+
+.accueil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.imgacc img {
+  padding: 10vh;
+  height:50vh;
+}
+h1{
+    font-weight: 800;
+    font-size: 3em;
+    padding: 3vh 0 3vh 0;
+}
+p{
+    padding: 0 3% 0 3%;
+    text-align: justify;
+  margin: 4vh 7vh 9vh 0;
+}
+.biblio1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+  grid-gap: 5vh 6vh;
+}
+.grid-item a img {
+  height: 25vh;
+  width: 17vh;
+  border: 0.5vh solid white;
+}
+.grid-item{
+ grid-gap: 20vh 10vh;
+ display: flex;
+ justify-content: center;
+}
+.grid-item a img:hover{
+  border: 0.5vh solid rgb(98, 0, 117);
+}
+.gradient{
+  background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,246,168,1) 100%);
+}
+.presentation img { 
+  height: 50vh;
+  margin: 9vh 7vh 9vh 15vh;
+}
+.presentation{
+  display: flex;
+}
+.presentation div p {
+  font-size: 1em;
+  font-family: 'Montserrat';
+  text-align: justify;
+  margin: 4vh 7vh 9vh 9vh;
+}
+.presentation div img {
+  height: 5vh;
+  width: 25vh;
+  margin: 0vh 7vh 1vh 9vh;
+  
+}
+h2{
+  color: #020202;
+  font-size: 5vh;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  margin: 9vh 7vh 2vh 9vh;
+}
+.pres{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h3{
+  color: #020202;
+  font-size: 3vh;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  margin: 2vh 7vh 5vh 9vh;
+}
+iframe{
+  width: 800px;
+  height: 400px;
+}
+form {
+  /* Uniquement centrer le formulaire sur la page */
+  margin: 0 auto;
+  width: 400px;
+  /* Encadré pour voir les limites du formulaire */
+  padding: 1em;
+
+}
+.formumu form div {
+  margin: 4vh 0 4vh 0;
+  font-size: 2vh;
+  font-family: 'Montserrat';
+}
+input{
+  border: 1px solid black;
+height: 4vh;
+width: 34vh;
+margin-left: 4vh;
+box-sizing: border-box;
+}
+textarea{
+  border: 1px solid black;
+height: 7vh;
+width: 34vh;
+margin-left: 4vh;
+box-sizing: border-box;
+}
+.button{
+  display: flex;
+  justify-content: center;
+
+}
+button{
+  border: 1px solid black;
+height: 4vh;
+width: 25vh;
+background: white;
+border-radius: 20px;
+font-weight: 600;
+}
+button:hover{
+  color: rgb(255, 255, 255);
+  background: #020202;
+}
+
+@media screen and (max-width:1024px) {
+  .accueil{
+    flex-direction: column;
+  }
+  .imgacc img{
+    width: 70%;
+    height: auto;
+  }
+  .textacc h1{
+    margin-left: 4vh;
+  }
+  .textacc p{
+    margin: 10px 20px 10px 20px;
+  }
+  .biblio1{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+.grid-item a img{
+  height: 20vh;
+  width: 14vh;
+}
+.presentation{
+  flex-direction: column;
+  align-items: center;
+}
+.presentation img{
+  height: 40vh;
+  width: 29vh;
+  margin: 40px 0 0 0;
+  
+}
+input{
+  margin: 0;
+}
+textarea{
+  margin: 0;
+}
+}
+@media screen and (max-width:414px){
+  .imgacc img{
+    width: 55%;
+    height: auto;
+    
+  }
+  .textacc h1{
+    margin: 2px 2px 2px 12px;
+    font-size: 1.5em;
+  }
+  .biblio1{
+    grid-template-columns: 1fr 1fr;
+  }
+  .presentation div p {
+    margin: 4vh 2vh 9vh 2vh;
+  }
+  h2{
+    margin: 9vh 2vh 2vh 2vh;
+  }
+  iframe{
+    width: 350px;
+    height: 175px;
+  }
+}
